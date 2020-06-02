@@ -1,7 +1,13 @@
 #main script file to start the program
 
-import Tkinter
-import pyinstaller
+import tkinter as tk
+#import pyinstaller
 
-top = Tkinter.Tk()
+top = tk.Tk()
+
+startB = tk.Button(top, text="Start")
+
+startB.pack()
+startB.place(height=20, width=100)
+top.mainloop()
 
