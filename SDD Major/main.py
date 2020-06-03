@@ -1,7 +1,6 @@
 #main script file to start the program
 
 import tkinter as tk
-#import pyinstaller
 
 top = tk.Tk()
 
