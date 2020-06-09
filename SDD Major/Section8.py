@@ -18,7 +18,7 @@ nameUser = tk.Entry(exportselection=0)
 #randomised name there when user arrives on page
 #pressing randomise button should change the name to the new name
 #all of this is seperate to the user entered name section
-nameText = tk.Text(text=randomName())
+
 
 nameList = []
 
@@ -26,3 +26,4 @@ def randomName():
 	randNum = random.randint(0,...)
 
 
+nameText = tk.Text(text=randomName())
