@@ -69,4 +69,22 @@
     </task>
     <servers />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1294" height="175" key="GridCell.Tab.0.bottom" timestamp="1592266315089">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state width="1294" height="175" key="GridCell.Tab.0.bottom/49.27.1317.741@49.27.1317.741" timestamp="1592266315089" />
+    <state width="1294" height="175" key="GridCell.Tab.0.center" timestamp="1592266315088">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state width="1294" height="175" key="GridCell.Tab.0.center/49.27.1317.741@49.27.1317.741" timestamp="1592266315088" />
+    <state width="1294" height="175" key="GridCell.Tab.0.left" timestamp="1592266315088">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state width="1294" height="175" key="GridCell.Tab.0.left/49.27.1317.741@49.27.1317.741" timestamp="1592266315088" />
+    <state width="1294" height="175" key="GridCell.Tab.0.right" timestamp="1592266315089">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state width="1294" height="175" key="GridCell.Tab.0.right/49.27.1317.741@49.27.1317.741" timestamp="1592266315089" />
+  </component>
 </project>
