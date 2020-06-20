@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b38a570-55b0-4d73-8fed-d22366120a91" name="Default Changelist" comment="" />
+    <list default="true" id="1b38a570-55b0-4d73-8fed-d22366120a91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SDD Major/Section2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDD Major/Section8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDD Major/mainpybug.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/dnd5e stat roll.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/dnd5e stat roll.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +33,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.Section5">
     <configuration name="Section5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -90,6 +108,17 @@
       <updated>1592263450525</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state width="1294" height="175" key="GridCell.Tab.0.bottom" timestamp="1592358567077">
