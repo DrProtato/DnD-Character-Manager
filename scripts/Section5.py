@@ -14,7 +14,8 @@ def sortList(spellList = []):
             spellList.append(tempVar1)
         else:
             tempVar2 = spellList[i+1]
-            if tempVar1 < tempVar2:
+            if tempVar1 > tempVar2:
+                spellList[i] = tempVar2
 
     return spellList
 
