@@ -8,14 +8,20 @@ printedResults = []
 #sorting the list
 def sortList(spellList = []):
     i = 0
-    while i < len(spellList):
-        tempVar1 = spellList[i]
-        if i + 1 == len(spellList):
-            spellList.append(tempVar1)
-        else:
-            tempVar2 = spellList[i+1]
-            if tempVar1 > tempVar2:
-                spellList[i] = tempVar2
+    goodCount = 0
+    while goodCount < len(spellList) - 1:
+
+
+        while i < len(spellList):
+            if i + 1 != len(spellList):
+                tempVar1 = spellList[i]
+                tempVar2 = spellList[i+1]
+                if tempVar1 > tempVar2:
+                    spellList[i] = tempVar2
+                    spellList[i+1] = tempVar1
+                else:
+                    goodCount = goodCount + 1
+
 
     return spellList
 
