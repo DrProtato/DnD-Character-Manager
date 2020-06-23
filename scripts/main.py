@@ -1,27 +1,10 @@
-#main script file to start the program
-import tkinter as tk
+#main script file
 
-mainWindow = tk.Tk()
-
-def preStart(aFrame, workingwindow):
-    aFrame.pack_forget()
-    aFrame.destroy()
-    bFrame = tk.Frame(width=400, height=400, background="#AAAAAA")
-    hey = tk.Label(workingwindow, text="Hellow there")
-    hey.pack()
-    hey.place()
-    workingwindow.mainloop()
-
-def startFrame(window):
-    workingFrame = tk.Frame(width=400, height=400, background="#FFFFFF")
-    workingFrame.pack()
-    title = tk.Label(window, text="Welcome to the D&D Character Creator")
-    title.pack()
-    startB = tk.Button(window, text="Create a new character", command=lambda : preStart(workingFrame, window))
-    startB.pack()
-    startB.place()
-    window.mainloop()
+#importing other functions and sections
+import SectionRandomManager
+import Section1
+import Section2
+import Section5
+import Section8
 
 
-
-startFrame(mainWindow)
