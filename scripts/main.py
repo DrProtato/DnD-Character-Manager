@@ -3,6 +3,15 @@ import tkinter as tk
 
 mainWindow = tk.Tk()
 
+def preStart(aFrame, workingwindow):
+    aFrame.pack_forget()
+    aFrame.destroy()
+    bFrame = tk.Frame(width=400, height=400, background="#AAAAAA")
+    hey = tk.Label(workingwindow, text="Hellow there")
+    hey.pack()
+    hey.place()
+    workingwindow.mainloop()
+
 def startFrame(window):
     workingFrame = tk.Frame(width=400, height=400, background="#FFFFFF")
     workingFrame.pack()
@@ -13,13 +22,6 @@ def startFrame(window):
     startB.place()
     window.mainloop()
 
-def preStart(aFrame, workingwindow):
-    aFrame.pack_forget()
-    aFrame.destroy()
-    bFrame = tk.Frame(width=400, height=400, background="#AAAAAA")
-    hey = tk.Label(workingwindow, text="Hellow there")
-    hey.pack()
-    hey.place()
-    workingwindow.mainloop()
+
 
 startFrame(mainWindow)
