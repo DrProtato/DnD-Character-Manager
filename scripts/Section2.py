@@ -17,6 +17,7 @@ def statRoll():
 		j = j + stat
 		i = i + 1
 	print("Stat Total: " + str(j))
+	return statlistnum
 
 #dnd's standard stat array
 def standardArray():

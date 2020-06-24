@@ -5,14 +5,14 @@
 #the displayed name will first be a randomised name, the user can press
 #a random name button to randomise it
 
-import tkinter as tk
+
 import random
 
-nameWindow = Frame()
 
-titleText = tk.Text(text="Type a name or generate a random one.")
 
-nameUser = tk.Entry(exportselection=0)
+print("Type a name or generate a random one.")
+
+
 
 
 #randomised name there when user arrives on page
@@ -23,7 +23,7 @@ nameUser = tk.Entry(exportselection=0)
 nameList = []
 
 def randomName():
-	randNum = random.randint(0,...)
+	randNum = random.randint(0,10)
 
 
-nameText = tk.Text(text=randomName())
+

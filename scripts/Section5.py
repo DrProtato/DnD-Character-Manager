@@ -2,9 +2,6 @@
 
 #spells will just have their name for now
 #will get a text file with the spell list
-spellsList = ["fireball", "avalanche", "magic missile", "skeleton wall", "firebolt", "fire of death", "blackhole", "hellfire", "blackbody", "firewall", "flames of olympus"]
-printedResults = []
-goodCount = 0
 
 #sorting the list
 def sortList(goodCount, spellList = []):
@@ -26,10 +23,10 @@ def sortList(goodCount, spellList = []):
                 i = i +1
     return spellList
 
-
-
 #adds spell using insertion sort
-def addSpell(newSpell, spellList = []):
+def addSpell(newSpell, goodCount):
+    spellList = ["fireball", "avalanche", "magic missile", "skeleton wall", "firebolt", "fire of death", "blackhole",
+                  "hellfire", "blackbody", "firewall", "flames of olympus"]
     i = 0
     while i < len(spellList):
         if newSpell < spellList[i]:
@@ -42,10 +39,15 @@ def addSpell(newSpell, spellList = []):
     return spellList
 
 #searches for searched spell
-def getSpell(searchSpell, spellList = [], resultsList = []):
+def getSpell(searchSpell, goodCount, resultsList = [], spellList = []):
+    print(searchSpell)
     for i in spellList:
+        print("test")
+        print(i)
         if searchSpell in i:
+            print(i)
             resultsList.append(i)
+    print(len(resultsList))
     if len(resultsList) > 0:
         resultsList = sortList(goodCount, resultsList)
         return resultsList
@@ -53,14 +55,20 @@ def getSpell(searchSpell, spellList = [], resultsList = []):
         noResults = "No results were found"
         return noResults
 
-response = input("Do you want to add a spell?\n")
 
-if response == "y":
-    newSpell = input("Spell Name? \n")
-    spellsList = addSpell(newSpell, spellsList)
+def start():
+    spellsList = []
+    printedResults = []
+    goodCount = 0
+    response = input("Do you want to add a spell? (yes/no)\n")
+
+    if response == "yes":
+        newSpell = input("Spell Name? \n")
+        spellsList = addSpell(newSpell, goodCount)
 
 
-findSpell = input("Search for a spell\n")
-results = getSpell(findSpell, spellsList, printedResults)
-print(results)
+    findSpell = input("Search for a spell\n")
+    results = getSpell(findSpell, printedResults, spellsList)
+    print(results)
+    return results
 
