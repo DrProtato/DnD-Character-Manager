@@ -8,8 +8,8 @@ are compared and the lower one will be done in the way that the user intended.  
 the comparison happens again until all sections are done.'''
 import random
 
-manual = [1,3]
-randomising = [2,4,5,6,7,8]
+manual = []
+randomising = []
 completed = []
 '''
 def randSectionsFunc():
@@ -23,7 +23,8 @@ if anySecRand == "Y":
 else:
 	manual = [1,2,3,4,5,6,7,8,9]
 '''
-def randomSpecific(manualArray = [], randomArray = [], completedArray = []):
+def randomSpecific(manualArray = [], randomArray = []):
+	completedArray = []
 	while len(completedArray) < 8:
 		print("man =" + str(manualArray))
 		print("rand =" + str(randomArray))	
