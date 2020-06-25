@@ -11,7 +11,7 @@ import random
 
 
 print("Type a name or generate a random one.")
-
+s
 
 
 
