@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['/home/daniel/Desktop/Repo Cloning/DnD-Character-Manager/scripts'],
+             pathex=['C:\\Users\\Daniel\\Desktop\\Repo Clones\\DnD-Character-Manager\\scripts'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False )
+          console=True )

@@ -35,19 +35,19 @@ def lineBreak():
     print("\n---------------------------------------------------")
 
 def sendToSection(sectNum, isRand, character = []):
+    characterInfo = character
     lineBreak()
     stats = []
     spells = []
     if sectNum == 1:
-        character.append(Section1.classSect(isRand))
+        characterInfo.append(Section1.classSect(isRand))
     elif sectNum == 2:
         stats = Section2.statRoll()
     elif sectNum == 5:
         spells = Section5.start()
         print(stats)
     elif sectNum == 8:
-        character.append(Section8.randomName())
-        print(character)
+        input("Press enter to exit.")
 
 
 def randomSpecific(manualArray = [], randomArray = [], character = []):

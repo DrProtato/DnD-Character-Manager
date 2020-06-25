@@ -12,6 +12,7 @@ def classSect(isRan):
                  "Warlock", "Wizard"]
     if isRan == True:
         dndClass = classList[random.randint(0, (len(classList) - 1))]
+        print("Your class is: " + dndClass)
         return dndClass
     else:
         while True:

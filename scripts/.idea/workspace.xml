@@ -2,16 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b38a570-55b0-4d73-8fed-d22366120a91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../out/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/../out/main.spec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scripts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Section1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Section2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Section5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Section8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SectionRandomManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/SectionRandomManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/warn-main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/DnD Character Creator/xref-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +56,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="Section5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -107,12 +137,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1294" height="219" key="GridCell.Tab.0.bottom" timestamp="1592874633658">

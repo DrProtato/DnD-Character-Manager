@@ -1,0 +1,15 @@
+START RandomSpecific
+	GET randSections array
+	GET manSections array
+	SET n = 0
+	WHILE 10 elements in compSections:
+		IF manSections[0] < randSections[0]:
+			RUN manSections[0]
+			compSections[n] = manSections[0]
+			arraySort(manSections)
+		ELSE:
+			RUN randSections[0]
+			compSections[n] = randSections[0]
+			arraySort(randSections)
+		n = n + 1
+END RandomSpecific

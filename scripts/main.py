@@ -18,7 +18,7 @@ def lineBreak():
 
 def startSequence():
     lineBreak()
-    print("Hello there and welcome to the D%D Character creator!")
+    print("Hello there and welcome to the D&D Character creator!")
     print("This program is here to help you create a character for your next campaign.")
 
     while True:
@@ -54,9 +54,10 @@ def findSectionToRand(character = []):
                     randList.append(int(i))
             j = 1
             i = 0
+            print(randList)
             while j < 9:
                 while i < len(randList):
-                    if int(j) == int(randList[i]):
+                    if j == randList[i]:
                         j = j + 1
                         i = i + 1
                     elif j < randList[i]:

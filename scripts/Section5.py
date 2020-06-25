@@ -40,14 +40,9 @@ def addSpell(newSpell, goodCount):
 
 #searches for searched spell
 def getSpell(searchSpell, goodCount, resultsList = [], spellList = []):
-    print(searchSpell)
     for i in spellList:
-        print("test")
-        print(i)
         if searchSpell in i:
-            print(i)
             resultsList.append(i)
-    print(len(resultsList))
     if len(resultsList) > 0:
         resultsList = sortList(goodCount, resultsList)
         return resultsList
@@ -69,6 +64,5 @@ def start():
 
     findSpell = input("Search for a spell\n")
     results = getSpell(findSpell, printedResults, spellsList)
-    print(results)
     return results
 

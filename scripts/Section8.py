@@ -11,7 +11,7 @@ import random
 
 
 print("Type a name or generate a random one.")
-s
+
 
 
 
@@ -24,6 +24,7 @@ nameList = []
 
 def randomName():
 	randNum = random.randint(0,10)
+	return randNum
 
 
 
